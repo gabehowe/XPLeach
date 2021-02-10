@@ -1,0 +1,6 @@
+name: XPLeach
+version: 0.1.0
+main: io.github.gabehowe.xpleach.XPLeach
+api-version: 1.16
+authors: [ GabrielHowe ]
+description: Leaches xp and gives you custom xp bottles
