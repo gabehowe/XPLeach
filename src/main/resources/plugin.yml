@@ -1,6 +1,13 @@
-name: XPLeach
+name: XPLeech
 version: 0.1.0
-main: io.github.gabehowe.xpleach.XPLeach
+main: io.github.gabehowe.xpleech.XPLeech
 api-version: 1.16
 authors: [ GabrielHowe ]
 description: Leaches xp and gives you custom xp bottles
+commands:
+  leech:
+    usage: /<command> <xp>
+    description: turns some of your xp into bottles
+    permission: xpleech.leech
+    permission-message: §cYou dont have permission to use that command
+    aliases: [ lxp, lch ]
